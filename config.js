@@ -14,7 +14,7 @@ module.exports = {
   //__________________________________________________________________________________________________________________________________________
  // For Enabling Commands Like AUTO_STATUS_VIEW Type true For Disabling Type false  
 //____________________________________________________________________________________________________________________________________________  
-  SESSION_ID: process.env.SESSION_ID || '',
+  SESSION_ID: process.env.SESSION_ID || 'Phoenix~PhantomArdent',
   STICKER_DATA: process.env.STICKER_DATA || '🎯ᴘʜᴏᴇɴɪx-ᴍᴅ;ᴀʙʜɪꜱʜᴇᴋ ꜱᴜʀᴇꜱʜ🍀',
   ALIVE_DATA: process.env.ALIVE_DATA || '👋 ʜᴇʏ &sender, ɪ ᴍ *ᴘʜᴏᴇɴɪx-ᴍᴅ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ* ᴀʟɪᴠᴇ ɴᴏᴡ!\n\n📌 ᴛʏᴘᴇ *menu* ᴛᴏ ɢᴇᴛ ᴍʏ ᴄᴏᴍᴍᴀɴᴅ ʟɪꜱᴛ.\n\n*ᴘʟᴀᴛꜰᴏʀᴍ:* &platform\n*ʀᴜɴᴛɪᴍᴇ:* &runtime;https://i.ibb.co/tHWJrz3/IMG-20231128-WA0005.jpg',
   AUDIO_DATA: process.env.AUDIO_DATA || 'Phoenix-MD;Abhishek Suresh;https://i.ibb.co/tHWJrz3/IMG-20231128-WA0005.jpg',
@@ -35,15 +35,15 @@ module.exports = {
   ELEVENLABS_API_KEY: process.env.ELEVENLABS_API_KEY || '',
   TIMEZONE: process.env.TIMEZONE || "Asia/Kolkata",
   LANG: process.env.LANG || 'EN',
-  AUTO_STATUS_VIEW: toBool(process.env.AUTO_STATUS_VIEW || 'false'),
+  AUTO_STATUS_VIEW: toBool(process.env.AUTO_STATUS_VIEW || 'true'),
   AUTO_STATUS_REPLY: toBool(process.env.AUTO_STATUS_REPLY || 'false'),
-  AUTO_STATUS_REPLY_MSG: process.env.AUTO_STATUS_REPLY_MSG || '_*Nice Status Bro 🍀*_',
+  AUTO_STATUS_REPLY_MSG: process.env.AUTO_STATUS_REPLY_MSG || '_*♥️*_',
   AUTO_STATUS_REACT: toBool(process.env.AUTO_STATUS_REACT || 'true'),
-  AUTO_STATUS_REACT_EMOJI: process.env.AUTO_STATUS_REACT_EMOJI || '🍀',
-  AUTO_REACT: toBool(process.env.AUTO_REACT || 'false'),
-  AUTO_READ_MSG: toBool(process.env.AUTO_READ_MSG || 'false'),
-  ALWAYS_ONLINE: toBool(process.env.ALWAYS_ONLINE || 'false'),
-  AUTO_CALL_REJECT: toBool(process.env.AUTO_CALL_REJECT || 'false'),
+  AUTO_STATUS_REACT_EMOJI: process.env.AUTO_STATUS_REACT_EMOJI || '❤️‍🩹',
+  AUTO_REACT: toBool(process.env.AUTO_REACT || 'true'),
+  AUTO_READ_MSG: toBool(process.env.AUTO_READ_MSG || 'true'),
+  ALWAYS_ONLINE: toBool(process.env.ALWAYS_ONLINE || 'true'),
+  AUTO_CALL_REJECT: toBool(process.env.AUTO_CALL_REJECT || 'true'),
   AUTO_CALL_REJECT_MSG: process.env.AUTO_CALL_REJECT_MSG || '*ᴀᴜᴛᴏᴍᴀᴛᴇᴅ ᴄᴀʟʟ ʙʟᴏᴄᴋɪɴɢ*\n\nꜱᴏʀʀʏ ᴄᴀʟʟꜱ ᴀʀᴇ ɴᴏᴛ ᴀʟʟᴏᴡᴇᴅ\n\nᴘʟᴇᴀꜱᴇ ꜱᴇɴᴅ ᴀ ᴛᴇxᴛ ᴍᴇꜱꜱᴀɢᴇ/ᴠᴏɪᴄᴇ ᴍᴇꜱꜱᴀɢᴇ\n\n> ᴘʜᴏᴇɴɪx-ᴍᴅ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
 //_______________#OTHER(⚠️ Warning Dont Edit Anything Here)____________________________________________________________________________________
   BASE_URL: 'https://abhi-api-wphp.onrender.com/', // Don't Change This
